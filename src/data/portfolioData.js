@@ -1,6 +1,7 @@
 import todoAppImg from '../assets/todo-app.png';
 import ecommerceImg from '../assets/ecommerce-website.png';
 import reactPortfolioImg from '../assets/react-portfolio.png';
+import bizoraImg from '../assets/bizora.png';
 
 export const DEVELOPER_INFO = {
   name: "MUHAMMAD ANIS JAN",
@@ -27,7 +28,8 @@ export const CONTACT_LINKS = {
 export const PROJECT_LINKS = {
   todoAppLive: "https://to-do-react-1nz7.vercel.app/",
   ecommerceLive: "https://iridescent-pithivier-8cfef5.netlify.app/",
-  reactPortfolioLive: "https://react-portfolio-chi-bay.vercel.app/"
+  reactPortfolioLive: "https://react-portfolio-chi-bay.vercel.app/",
+  bizoraLive: "https://bizora-website.vercel.app/"
 };
 
 export const SKILLS_DATA = [
@@ -129,6 +131,17 @@ export const PROJECTS_DATA = [
     image: reactPortfolioImg,
     featured: true,
     tagline: "Personal Portfolio Website"
+  },
+  {
+    id: "bizora",
+    name: "Bizora",
+    description: "Bizora is a modern and responsive e-commerce website built with React.js and Tailwind CSS, focusing on a clean user interface, reusable components, and a smooth shopping experience.",
+    technologies: ["React.js", "JavaScript", "Tailwind CSS"],
+    githubUrl: null,
+    liveUrl: PROJECT_LINKS.bizoraLive,
+    image: bizoraImg,
+    featured: true,
+    tagline: "E-commerce Website"
   }
 ];
 
